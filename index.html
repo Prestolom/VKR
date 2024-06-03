@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Сувенирный магазин</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Сеть сувенирных магазинов</title>
 </head>
 <body>
     <header class="header">
         <div class="header-top">
-            <span class="logo">Самара-городок</span>    
+            <a href="" class="logo">Сувенирная сеть<br> «Матрёшка» и «Самара-городок»</a>    
             <nav class="navigation">
                 <ul class = "menu">
                     <li class="menu-elem">
-                        <a class="menu-elem__link" href="">Home</a>
+                        <a class="menu-elem__link  active" href="">Home</a>
                     </li>
                     <li class="menu-elem">
                         <a class="menu-elem__link" href="">About</a>
@@ -28,9 +30,11 @@
             <div class="switcher">Ru-Eng</div>
         </div>
 
-        <div class="header-center">
-            <h1 class="name">Самара-городок</h1>
-            <p class="description"></p>
+        <div class="header-center" >
+            <div class="header-center__wrapper">
+                <h1 class="name">Добро пожаловать!</h1>
+                <p  class="description">Мы рады видеть вас на нашем сайте! Здесь Вы можете узнать о нас практически все!</p>
+            </div>
         </div>
     </header>
     
@@ -65,6 +69,7 @@
         <h2 class="contacts-title">Вы можете найти нас по следующим адресам:</h2>
         <span>
             <ul>
+                <li class="contact-adress"></li>
                 <li class="contact-adress"></li>
                 <li class="contact-adress"></li>
                 <li class="contact-adress"></li>
